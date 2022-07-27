@@ -1,0 +1,26 @@
+body {
+    padding: 20px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+#containerUsers {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content: center;
+    gap: 100px;
+    margin-top: 40px;
+    padding:20px
+    
+
+
+
+}
+
+.userCard {
+    margin-bottom: 50px;
+}
+
+#favorites {
+    font-size: 1.5em;
+}
